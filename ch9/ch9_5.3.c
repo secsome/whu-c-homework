@@ -3,8 +3,10 @@
 
 #define MAXN 0x200
 
-// MSVC doesn't have this definition... So we declare it manually.
+#ifdef _MSC_VER
+// MSVC doesn't have this definition... So we add it manually.
 extern char* gets(char* str);
+#endif
 
 int Is_Alpha_Or_Digit(char ch)
 {

@@ -4,8 +4,10 @@
 #define MAXN 0x200
 #define MAXM 10
 
+#ifdef _MSC_VER
 // MSVC doesn't have this definition... So we add it manually.
 extern char* gets(char* str);
+#endif
 
 static char g_Data_Buffer[MAXM][MAXN] = { 0 };
 static int g_Current_Line = 0;

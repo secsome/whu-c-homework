@@ -1,7 +1,9 @@
 #include <stdio.h>
 
+#ifdef _MSC_VER
 // MSVC doesn't have this definition... So we add it manually.
 extern char* gets(char* str);
+#endif
 
 int main()
 {
