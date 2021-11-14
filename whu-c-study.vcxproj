@@ -18,6 +18,14 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="final\main.C" />
+    <ClCompile Include="final\Menu.C" />
+    <ClCompile Include="final\ReadData.C" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="final\main.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
